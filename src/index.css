@@ -1,0 +1,38 @@
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  display: flex;
+  gap: 5rem;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+h1 {
+  font-size: 5rem;
+  border-bottom: 1px solid gray;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+button {
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+}
